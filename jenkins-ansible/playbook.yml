@@ -1,0 +1,5 @@
+- hosts: an_remote_server
+  tasks: 
+    - shell: echo Hello World > /tmp/ansible.file
+    - debug: 
+        msg: "{{ MSG }}" 
